@@ -1,0 +1,6 @@
+## Interface: 30000
+## Title: Quester
+## SavedVariablesPerCharacter: 
+
+embeds.xml
+Quester.lua

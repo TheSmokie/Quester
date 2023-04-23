@@ -1,0 +1,17 @@
+Corpse = State.new();
+Corpse.ClassName = "GoToCorpse";
+
+
+function _CanRun()
+    return true;
+end
+
+Corpse.CanRun = _CanRun;
+
+function _Pulse()
+    print(Corpse.ClassName)
+    return true;
+end
+Corpse.Pulse = _Pulse;
+
+return Corpse;
